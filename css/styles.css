@@ -1,0 +1,207 @@
+
+body {
+color: #2E2F42;
+font-family: "Roboto", sans-serif;
+}
+
+
+/*----HEADER----*/
+
+.header-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.header-logo-2 {
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.header-item {
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.list { list-style: none; }
+
+.link {text-decoration: none;}
+
+.header-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.header-link:hover {color: #4D5AE5; background-color: #f79d35;}
+.header-link:focus {color: #e54db2; background-color: #2E2F42;}
+
+
+/*------*Contacts*-------*/
+
+.header-inform.list
+
+.header-mailto.list, .header-contacts.list {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color:#434455;
+}
+
+.header-mail.link, .header-tel.link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color:#434455
+}
+
+.header-mail:hover,
+.header-tel:hover  {color: #1224eb; background-color: #f8ef9d ;}
+.header-mail:focus, 
+.header-tel:focus {color: #eb4539; background-color: #4de5cc;}
+
+
+/*------HERO-----*/
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;}
+
+.hero-title {
+font-weight: 600;
+font-size: 56px;
+line-height: 1,07;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.hero-list.list
+.hero-item.list {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+}
+
+.hero-btn.link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor: pointer;
+border: 1px solid #E7E9FC;
+}
+
+.hero-btn:hover {color: #FFFFFF; background-color: #4D5AE5;}
+
+/*--------Hero Project-----*/
+
+.hero-services, .staff-name {
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.hero-skils, .staff-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/*----Our Team-----*/
+.activity, .staff {
+font-weight: 600;
+font-size: 36px;
+line-height: 1,11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+/*--------HEROS------*/
+
+.heros-btn {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+width: 170px;
+height: 0,3;
+background: #4D5AE5;
+border-radius: 4px;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+flex: none;
+cursor: pointer;
+}
+
+.heros-btn:hover 
+{background-color:#0a17a1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*-------FOOTER-------*/
+
+.footer-info {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+.footer-header-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
